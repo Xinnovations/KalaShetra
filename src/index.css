@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* KalaShetra Design System - Traditional Indian Artisan Marketplace
+All colors inspired by traditional Indian crafts and heritage
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Base Colors - Warm cream and rich earth tones */
+    --background: 35 20% 96%;
+    --foreground: 25 25% 15%;
+
+    /* Card & Surface Colors */
+    --card: 35 25% 98%;
+    --card-foreground: 25 25% 15%;
+
+    --popover: 35 25% 98%;
+    --popover-foreground: 25 25% 15%;
+
+    /* Primary - Deep Traditional Blue */
+    --primary: 215 85% 25%;
+    --primary-foreground: 35 20% 96%;
+
+    /* Secondary - Rich Maroon/Burgundy */
+    --secondary: 345 65% 35%;
+    --secondary-foreground: 35 20% 96%;
+
+    /* Muted - Soft Traditional Tones */
+    --muted: 35 15% 90%;
+    --muted-foreground: 25 20% 45%;
+
+    /* Accent - Warm Gold */
+    --accent: 45 75% 55%;
+    --accent-foreground: 25 25% 15%;
+
+    /* Heritage Colors for Special Elements */
+    --heritage-saffron: 25 95% 55%;
+    --heritage-emerald: 155 65% 35%;
+    --heritage-bronze: 30 45% 40%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(215 85% 25%), hsl(345 65% 35%));
+    --gradient-warm: linear-gradient(135deg, hsl(45 75% 55%), hsl(25 95% 55%));
+    --gradient-heritage: linear-gradient(180deg, hsl(35 25% 98%), hsl(35 15% 95%));
+
+    /* Shadows with Cultural Warmth */
+    --shadow-warm: 0 10px 30px -10px hsl(25 25% 15% / 0.2);
+    --shadow-cultural: 0 15px 40px -15px hsl(345 65% 35% / 0.3);
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 35 20% 96%;
+
+    --border: 35 20% 85%;
+    --input: 35 20% 92%;
+    --ring: 215 85% 25%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark Mode - Rich Traditional Night Tones */
+    --background: 25 25% 8%;
+    --foreground: 35 20% 92%;
+
+    --card: 25 20% 10%;
+    --card-foreground: 35 20% 92%;
+
+    --popover: 25 20% 10%;
+    --popover-foreground: 35 20% 92%;
+
+    --primary: 45 75% 65%;
+    --primary-foreground: 25 25% 8%;
+
+    --secondary: 345 55% 45%;
+    --secondary-foreground: 35 20% 92%;
+
+    --muted: 25 15% 15%;
+    --muted-foreground: 35 15% 65%;
+
+    --accent: 215 75% 55%;
+    --accent-foreground: 35 20% 92%;
+
+    /* Dark Heritage Colors */
+    --heritage-saffron: 25 85% 65%;
+    --heritage-emerald: 155 55% 45%;
+    --heritage-bronze: 30 35% 50%;
+
+    /* Dark Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(45 75% 65%), hsl(345 55% 45%));
+    --gradient-warm: linear-gradient(135deg, hsl(25 85% 65%), hsl(215 75% 55%));
+    --gradient-heritage: linear-gradient(180deg, hsl(25 20% 12%), hsl(25 15% 8%));
+
+    --destructive: 0 62.8% 50.6%;
+    --destructive-foreground: 35 20% 92%;
+
+    --border: 25 15% 20%;
+    --input: 25 15% 18%;
+    --ring: 45 75% 65%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
