@@ -1,0 +1,21 @@
+# Ignore frontend files and dependencies
+src/
+public/
+dist/
+node_modules/
+*.md
+*.json
+!server/
+!railway.json
+!package-root.json
+.env.example
+.env.production
+components.json
+eslint.config.js
+index.html
+postcss.config.js
+tailwind.config.ts
+tsconfig*.json
+vite.config.ts
+assets/
+WhatsApp*
