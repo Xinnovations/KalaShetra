@@ -1,0 +1,24 @@
+# Ignore frontend files and dependencies
+src/
+public/
+dist/
+node_modules/
+*.md
+.env.example
+.env.production
+components.json
+eslint.config.js
+index.html
+postcss.config.js
+tailwind.config.ts
+tsconfig*.json
+vite.config.ts
+assets/
+WhatsApp*
+package-lock.json
+
+# Keep only server directory and necessary config files
+!server/
+!nixpacks.toml
+!railway.json
+!package-root.json
