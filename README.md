@@ -256,4 +256,3 @@ If this platform helps even one grandmother like Meera reach customers who truly
   <em>Every thread tells a story. Every story deserves to be heard.</em><br><br>
   <small>🙏 Thank you for being part of this journey</small>
 </div>
-# KalaShetra
