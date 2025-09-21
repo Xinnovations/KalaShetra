@@ -2,7 +2,7 @@
 *Where every thread tells a story, and AI helps the world listen*
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/kalashetra-logo.png" alt="KalaShetra Logo - GenAI Compass: Empowering Artisans, Enriching Culture" width="300" height="300">
+  <img src="./assets/logo.png" alt="KalaShetra Logo - GenAI Compass: Empowering Artisans, Enriching Culture" width="300" height="300">
   
   **A love letter to artisans everywhere - helping you share your craft with the world**
 </div>
