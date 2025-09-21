@@ -7,8 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
+    "build:prod": "vite build --mode production",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy:build": "npm run build:prod && echo 'Frontend built! Deploy the dist/ folder to Vercel/Netlify'"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

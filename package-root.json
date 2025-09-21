@@ -1,0 +1,14 @@
+{
+  "name": "kalashetra-monorepo",
+  "version": "1.0.0",
+  "description": "KalaShetra - AI Marketplace for Artisans",
+  "scripts": {
+    "start": "cd server && npm start",
+    "install-server": "cd server && npm install",
+    "dev": "cd server && npm run dev"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
